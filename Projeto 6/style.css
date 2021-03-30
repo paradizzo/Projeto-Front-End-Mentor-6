@@ -1,0 +1,127 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: var(--Violet);
+
+}
+.background-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.background-desktop {
+    display: none;
+}
+.header {
+    margin: 3ch;
+}
+.logo-box {
+    width: 15ch;
+    height: 5ch;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    z-index: 11;
+}
+.top-image-box {
+    display: block;
+    margin: 0 auto;
+}
+.top-image {
+    width: 35ch;
+    height: 20ch;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8ch;
+}
+.menu-image {
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    position: relative;
+}
+.text-box {
+    margin: 5ch;
+    margin-top: 10ch;
+    text-align: center;
+}
+.upper-title-box {
+    margin-bottom:2ch;
+}
+.upper-title  {
+    color: #fff;
+    line-height: 2.5ch;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+.sub-title {
+    color: rgba(255, 255, 255, 0.459);
+    line-height: 2.5ch;
+    letter-spacing: .7px;
+    padding-bottom: 3ch;
+    margin-bottom: 2ch;
+}
+.button {
+    text-decoration: none;
+    padding: 2ch 10ch;
+    background-color: #fff;
+    border-radius: 30px;
+    color: hsla(257, 40%, 49%, 0.699);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.social-media-box {
+    text-align: center;
+    padding-top: 5ch;
+}
+ul li{
+    display: inline;
+    text-decoration: none;
+    
+}
+.social-medias {
+    padding: 1ch;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 2ch;
+    text-decoration: none;
+    
+}
+.fa-facebook {
+    color: white;
+    width: 2ch;
+    height: 1ch;
+    text-decoration: none;
+}
+.fa-twitter {
+    color: white;
+    width: 2ch;
+    height: 1ch;
+    text-decoration: none;
+}
+.fa-instagram {
+    color: white;
+    width: 2ch;
+    height: 1ch;
+    text-decoration: none;
+}
+.button:hover {
+    color: #fff;
+    background-color: var(--SoftMagenta);
+} 
+.fa-facebook:hover , .fa-twitter:hover , .fa-instagram:hover {
+    color: var(--SoftMagenta);
+}
